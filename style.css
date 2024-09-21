@@ -237,3 +237,100 @@ main{
     flex-direction: column;
     padding: 80px;
 }
+.container > .section-two{
+    max-width: 1200px;
+}
+.section-two{
+    display: flex;
+    width: 1200px;
+    gap: 30px;
+    margin: 150px 0 100px 0;
+}
+.section-two > .left,
+.section-two > .right{
+    width: 50%;
+}
+.section-two > .left > .section-two-heading{
+    font-size: 2.5rem;
+    font-weight: 300;
+    line-height: 55px;
+}
+.section-two .bus-and-train{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    border-bottom: 1px solid gainsboro;
+    width: fit-content;
+    margin: 30px 0 30px 0;
+}
+.section-two .bus-and-train > div{
+    display: flex;
+    gap: 20px;
+    cursor: pointer;
+    align-items: center;
+    height: 60px;
+}
+.bus-rental,
+.train-rental{
+    min-width: 200px;
+    padding: 0 20px 0 20px;
+}
+.bus-rental:hover,
+.train-rental:hover{
+    border-radius: 10px 10px 0 0;
+    background-color: rgb(229, 229, 229);
+}
+.bus-and-train > .active{
+    color: rgb(216, 78, 85);
+    border-bottom: 3px solid rgb(216, 78, 85);
+    font-weight: 700;
+}
+.bus-rental > p,
+.train-rental{
+    font-size: 16px;
+}
+.section-two .bus-and-train > hr{
+    height: 30px;
+}
+.section-two .rental-list-title{
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 16px;
+}
+.section-two .rental-list{
+    list-style: none;
+}
+.section-two .rental-list > li{
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-weight: bold;
+}
+.section-two > .left > .book{
+    background-color: #d84e55;
+    color: white;
+    border: none;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    font-weight: 700;
+    gap: 10px;
+    font-size: 16px;
+    height: 50px;
+    margin-top: 30px;
+}
+.section-two > .right{
+    background-image: url("./assets/aboutUsImg.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: right;
+}
+.section-two .right img{
+    width: 600px;
+    height: 380px;
+    top: 100px;
+    position: absolute;
+}

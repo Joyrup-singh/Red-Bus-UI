@@ -334,3 +334,116 @@ main{
     top: 100px;
     position: absolute;
 }
+.section-three {
+    background-image: url("./assets/appInstallbg.svg");
+    padding: 2rem;
+    color: white;
+    background-size: cover;
+    background-position: right center;
+    background-repeat: no-repeat;
+    border-radius: 35px;
+    margin: 60px 0 60px 0;
+    width: 100%;
+  }
+  .section-three > p {
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    margin-bottom: 20px;
+  }
+  
+  .section-three-container {
+    display: flex;
+    gap: 50px;
+  }
+  
+  /* section_three_container .left  */
+  
+  .section-three-container > .left {
+    background-color: white;
+    color: black;
+    padding: 3rem 2rem;
+    border-radius: 16px;
+  }
+  .section-three-container > .left > ul {
+    list-style: none;
+    line-height: 35px;
+    margin-bottom: 30px;
+  }
+  
+  .section-three-container > .left > ul > li {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .rating {
+    display: flex;
+    gap: 30px;
+  }
+  .rating > div {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .rating > div > h3 > img {
+    width: 18px;
+  }
+  .rating > div > h3,
+  .rating > div > h4 {
+    color: #4a4a4a;
+  }
+  .rating > div > p {
+    color: rgb(108, 107, 107);
+    font-size: 14px;
+  }
+  .rating > hr {
+    color: rgb(206, 206, 206);
+    border-radius: 2px;
+  }
+  
+  /* section_three_container .right  */
+  .section-three-container > .right {
+    color: white;
+  }
+  
+  /* section_three_container .right  .  whatsapp no */
+  .right > .whatsapp-no {
+    display: flex;
+    background-color: white;
+    height: 64px;
+    border-radius: 16px;
+    gap: 5px;
+    align-items: center;
+    margin: 20px 0 20px 0;
+  }
+  .right > .whatsapp-no > p {
+    margin: 0 5px 0 20px;
+    color: gray;
+  }
+  .right > .whatsapp-no > input {
+    border: none;
+    cursor: pointer;
+    outline: none;
+    color: gray;
+    font-weight: bolder;
+  }
+  .right > .whatsapp-no button {
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+    color: white;
+    background-color: black;
+    width: 120px;
+    height: 64px;
+    border-radius: 0 16px 16px 0;
+  }
+  
+  /* section_three_container .right  links*/
+  .right > .links-qr {
+    display: flex;
+    gap: 30px;
+  }
+  .right > .links-qr > div > h4 {
+    margin-bottom: 10px;
+  }
